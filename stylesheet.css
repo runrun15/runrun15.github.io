@@ -1,0 +1,187 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display:inline-block;
+  
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  position:fixed;
+  z-index:10;
+  width:100%;
+}
+.head-wrapper{
+ 
+}
+.header-logo{
+  width:124px;
+float:left;
+  padding-top:20px;
+ 
+}
+.header-sub{
+  float:right;
+  padding:20px 25px 20px 25px;
+  background-color:rgba(255,255,255,0.3);
+  color:white;
+  transition:all 0.5s;
+  
+  
+ }
+ .header-sub:hover{
+   background-color:rgba(255,255,255,0.6);
+   cursor:pointer;
+   
+ }
+.top-wrapper{
+  background-image:url("https://prog-8.com/images/html/advanced/top.png");
+  background-size:cover;
+  padding-top:180px;
+  padding-bottom:100px;
+  
+}
+.container{
+  color:white;
+  width:1170px;
+  margin:0 auto;
+ text-align:center;
+}
+.container p{
+  font-size:45px ;
+  letter-spacing:5px;
+  font-weight:bold;
+   opacity:0.7;
+  
+}
+.container li{
+  opacity:0.7;
+}
+.btn{
+  padding:8px 24px;
+  opacity:0.8;
+  border-radius:10%;
+}
+.green{
+background-color:#239b76;
+margin-bottom:15px;
+margin-top:30px;
+
+
+}
+.blue{
+  background-color:#3b5998;
+  margin-right:10px;
+  margin-top:15px;
+  
+}
+.white{
+  background-color:#55acee;
+}
+.middle-wrapper{
+  height:580px;
+ 
+  text-align:center;
+  background-color:#f7f7f7;
+  
+}
+.containers{
+  width:1170px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.containers h2{
+  color:#5f5d60;
+  font-weight:normal;
+ padding-top:80px;
+ padding-bottom:50px;
+ 
+}
+.font-img{
+  width:25%;
+  float:left;
+  position:relative;
+}
+.containers li{
+  color:#b3aeb5;
+  width:80%;
+  padding-top:15px;
+  font-size:13px;
+  text-align:center;
+  margin:0 auto;
+}
+.font {
+  position:absolute;
+ top:80px;
+ left:120px;
+  font-weight:normal;
+  color:#f7f7f7;
+}
+.fonts{
+   position:absolute;
+ top:80px;
+ left:90px;
+  font-weight:normal;
+  color:#f7f7f7;
+  
+}
+.down-wrapper{
+  width:1170px;
+  text-align:center;
+  margin:0 auto;
+}
+.down-wrapper h2{
+  font-weight:normal;
+  padding-top:80px;
+  color:#5f5d60;
+}
+.down-btn{
+  padding:15px 40px;
+  background-color:#5dca88;
+  opacity:0.8;
+  color:white;
+  border-radius:5%;
+  margin-top:50px;
+  margin-bottom:80px;
+  box-shadow:0 7px #1a7940 ;
+
+}
+.down-btn:active{
+  position:relative;
+  top:6px;
+  box-shadow:none;
+}
+.down-btn:hover{
+  cursor:pointer;
+}
+footer{
+  border-top:1px solid #eee;
+  width:1170px;
+ margin:0 auto;
+}
+.foo{
+  margin-top:30px;
+  width:124px;
+}
+.foot li{
+  font-size:12px;
+  color:#b3aeb5;
+  margin-bottom:30px;
+}
